@@ -51,6 +51,8 @@ export interface MockJob {
 
 export const MOCK_JOB: MockJob = {
   status: "complete",
+  processedCount: 218,
+  totalCitations: 718,
   integrityScore: 61,
   downstreamRisk: {
     retractedCount: 1,
