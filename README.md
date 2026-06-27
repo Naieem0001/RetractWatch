@@ -84,9 +84,9 @@ npm audit --omit=dev
 ## Deployment
 
 1. Rotate every credential that appeared in historical commit `747d616`.
-2. Set Vercel Root Directory to `web`.
+2. Set Render Root Directory to `web`.
 3. Deploy Convex from `web/`, with `INTERNAL_JOB_SECRET` configured.
-4. Add the matching variables to Vercel.
+4. Add the matching variables to Render.
 5. Build and run a small end-to-end scan before larger bibliographies.
 
 `/api/check` requests up to 300 seconds. Hosting-plan limits may be lower, so
