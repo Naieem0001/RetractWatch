@@ -1,4 +1,4 @@
-# RetractWatch / Talos
+# RetractWatch
 
 RetractWatch checks a bibliography for direct retractions, confirmed citation
 cascades, replacement papers, and an overall integrity score.
